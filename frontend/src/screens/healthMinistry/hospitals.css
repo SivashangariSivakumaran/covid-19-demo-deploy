@@ -1,0 +1,31 @@
+.wardList{
+    flex: 4;
+    margin: 20px;
+}
+
+.wardListEdit{
+    border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb045;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.wardListDelete{
+    color: red;
+    cursor: pointer;
+
+}
+.wardAddButton{
+    border:none;
+    border-radius: 10px;
+    padding: 14px 40px;
+    background-color: #3bb045;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}

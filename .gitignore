@@ -1,0 +1,8 @@
+node_modules
+config.env
+frontend/node_modules
+frontend/src/components/common/__test__
+frontend/src/components/healthMinistryComponents/__test__
+frontend/src/components/hospitalComponents/__test__
+frontend/src/components/patientProfile/__test__
+frontend/src/screens/hospital/__test__

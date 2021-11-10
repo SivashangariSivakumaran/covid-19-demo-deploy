@@ -1,0 +1,57 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Application for Tracking Covid19 Patients in Sri Lanka",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypterz/Covid19.git"
+  },
+  "author": "Crypterz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crypterz/Covid19/issues"
+  },
+  "homepage": "https://github.com/Crypterz/Covid19#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http-proxy-middleware": "^2.0.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "node-cron": "^3.0.0",
+    "node-mocks-http": "^1.11.0",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "slugify": "^1.6.0",
+    "twilio": "^3.70.0",
+    "unirest": "^0.6.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "email":"patient6@gmail.com",
+    "password":"dakshitha",
+    "passwordConfirm":"dakshitha",
+    "role":"patient",
+    "name":{
+        "firstName":"Dakshitha",
+        "lastName":"Suriyaaratchie"
+    },
+    "nic":{
+        "nicno":9811431067,
+        "person":"1991"
+    },
+    "birthday":"1998-04-23",
+    "contactNo":"0770167004",
+    "address":{
+        "line1":"6, kandawala",
+        "line2":"Thimbirigaskatuwa",
+        "city":"Negombo",
+        "province":"Western"
+    }
+}

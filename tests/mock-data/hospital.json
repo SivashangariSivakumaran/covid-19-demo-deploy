@@ -1,0 +1,9 @@
+{
+    "name":"Colombo National Hospital",
+    "Contact":"0312232567",
+    "address":{
+        "district":"Colombo",
+        "province":"Western",
+        "city":"Colombo"
+    }
+}

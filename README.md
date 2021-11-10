@@ -1,0 +1,3 @@
+# COVID19 Patient Tracker for Hospitals in Sri Lanka
+
+_Tracking patients and the hospital capacities are critical requirements for the healthcare system to ensure the pandemic can be managed well. As a result, hospitals need a system to record the admitted patients, their PCR results, transfer a patient to another hospital or a ward, and record their current status. This system needs to store data in a centralized data store to make sure a dashboard can be created by the Ministry of Health to monitor the islandwide status of the hospitals. However, as some remote hospitals may have connectivity issues, the system should be able to record details locally and update the central storage periodically_
