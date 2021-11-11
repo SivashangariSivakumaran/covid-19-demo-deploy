@@ -3,6 +3,7 @@ const cookieParser= require('cookie-parser')
 const morgan = require('morgan');
 const helmet = require('helmet')
 const cors = require('cors');
+const path = require('path');
 
 const AppError = require('./utils/appError')
 const globalErrorHandler = require('./controllers/errorController')
@@ -46,6 +47,15 @@ app.use('/api/v1/staff',AdminRouter)
 app.use('/api/v1/hospital',HospitalRouter)
 app.use('/api/v1/med',medicalHistoryRouter)
 app.use('/api/v1/dashboard',dashBoardRouter)
+
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('frontend/build'));
+  
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html')); //relative path
+    });
+  }
+  
 
 app.all('*',(req,res,next)=>{
     // res.status(404).json({
